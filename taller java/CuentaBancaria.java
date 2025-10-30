@@ -1,6 +1,6 @@
+import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.time.LocalDateTime;
 
 /**
  * Clase principal que modela una Cuenta Bancaria.
@@ -185,7 +185,7 @@ public class CuentaBancaria {
     // ==== INTERFAZ DE CONSOLA ====
     public static void main(String[] args) {
         Banco banco = new Banco();
-        banco.crearCuenta("Tony Stark", TipoCuenta.CORRIENTE, 1599.99);
+        
 
         try (Scanner sc = new Scanner(System.in)) {
             while (true) {
